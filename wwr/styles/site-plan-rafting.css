@@ -36,12 +36,12 @@ nav {
 }
 nav a {
     display: block;
-    color: var(--nav-hover-link-color);
+    color: var(--nav-hover-background-color);
     text-decoration: none;
     padding: 1rem;
 }
 nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+    color: var(--nav-hover-link-color);
 }
 nav a:hover {
     color: var(--nav-hover-link-color);
