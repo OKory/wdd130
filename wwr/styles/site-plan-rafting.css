@@ -8,10 +8,10 @@
     --heading-font: 'Oswald', sans-serif;
     --paragraph-font: 'Playfair Display', serif;
 
-    --nav-background-color: #xxxxxx ;
-    --nav-link-color: #xxxxxx ;
-    --nav-hover-link-color: #xxxxxx ;
-    --nav-hover-background-color: #xxxxxx ;
+    --nav-background-color: #d9dad4 ;
+    --nav-link-color: #12263a ;
+    --nav-hover-link-color: #12263a ;
+    --nav-hover-background-color: #d9dad4 ;
 }
 body {
     font-family: var(--paragraph-font) ;
