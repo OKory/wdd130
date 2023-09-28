@@ -1,3 +1,10 @@
+/*reminder on how to make a comment on a .css file*/
+/* i completely forgot this kebind; hitting ctrl+/ will auto comment a line, no matter the file format */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav {
     background-color:steelblue;
     padding: 10px;
@@ -16,6 +23,7 @@ main img{
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 p {
     padding: 0;
@@ -25,12 +33,13 @@ main {
 }
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0 ,0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
+}
+aside h2 {
+    position: absolute;
+    top: 50;
+    left: 150;
+    /* fiddle with this some more */
 }
 aside img {
     width: 200px;
@@ -40,4 +49,12 @@ footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
+}
+/* class selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
 }
