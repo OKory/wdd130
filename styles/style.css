@@ -40,6 +40,7 @@ aside h2 {
     top: 50;
     left: 150;
     /* fiddle with this some more */
+    /* i have a very poor understanding about how the absolute positioning even works */
 }
 aside img {
     width: 200px;
