@@ -32,11 +32,12 @@ main {
     max-width: 840px;
 }
 aside {
+    position: relative;
     width: 20rem;
     text-align: center;
 }
 aside h2 {
-    position: absolute;
+    position: top;
     top: 50;
     left: 150;
     /* fiddle with this some more */
